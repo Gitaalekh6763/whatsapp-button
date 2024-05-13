@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align the content inside the box */
+}
+
+.container {
+    display: inline-block; /* Make the container inline-block to center its content */
+}
+
+.container img {
+    cursor: pointer; /* Change cursor to pointer when hovering over the image */
+}
